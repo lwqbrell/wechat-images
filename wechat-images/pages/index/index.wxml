@@ -1,0 +1,7 @@
+<view class="image_box">
+  <view class="image_list" wx:for="{{data}}">
+    <image src="{{item.img}}"  mode="aspectFill" binderror="imgerror">
+    </image>
+  </view>
+</view>
+<button bindtap='getImages' type='primary'>刷新</button>
